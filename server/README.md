@@ -1,6 +1,6 @@
-# GL Export Wizard API
+# Artemis API
 
-Backend scaffold for the GL Export Wizard.
+Backend scaffold for Artemis.
 
 ## Layout
 

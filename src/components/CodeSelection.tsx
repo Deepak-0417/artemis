@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Check, ChevronDown, ChevronUp, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { CodeRow } from "@/data/glData";
+import type { CodeRow } from "@shared/api";
 
 interface CodeTableProps {
   title: string;
@@ -105,7 +105,7 @@ export const CodeSelection = ({
     <div className="rounded-2xl border border-border bg-card shadow-sm">
       <div className="px-8 pt-8 pb-6 border-b border-border">
         <h2 className="text-2xl font-semibold tracking-tight text-foreground">
-          GL Export – Select Codes
+          Artemis – Select Codes
         </h2>
         <p className="mt-1.5 text-sm text-muted-foreground">
           Select the earning and deduction codes you want to map.

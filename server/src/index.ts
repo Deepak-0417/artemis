@@ -8,5 +8,5 @@ const app = createApp();
 initModels();
 
 app.listen(env.port, () => {
-  console.log(`GL Export Wizard API listening on http://localhost:${env.port}`);
+  console.log(`Artemis API listening on http://localhost:${env.port}`);
 });

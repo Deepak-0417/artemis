@@ -1,7 +1,6 @@
-export type CodeRow = {
-  code: string;
-  description: string;
-};
+import type { CodeRow, CostCenterTable } from "@shared/api";
+
+export type { CodeRow, CostCenterTable };
 
 export const earningCodes: CodeRow[] = [
   { code: "1", description: "Salary" },
